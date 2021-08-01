@@ -14,7 +14,7 @@ function HomePage(props) {
           content="This is a website where you can share your meetups with a very easy interface!"
         />
       </Head>
-      <MeetupList meetups={props.meetups} />;
+      <MeetupList meetups={props.meetups} />
     </Fragment>
   );
 }
